@@ -1,1 +1,18 @@
 /* write your override styles here */
+#wall .tag-1 { display: none; }
+
+#wall .tag-1 + #tag-2 { display: none; }
+
+#wall #tag-3.slick.wicked { display: none; }
+
+#wall div > #tag-4 { display: none; }
+
+<<<<<<< HEAD
+div#wall div.parent #tag-5.slick:only-child { display: none; }
+
+div#wall div.parent div:last-child #tag-6:only-child { display: none; }
+
+body div#wall div.parent div#tag-7.slick:first-child { display: none; }
+=======
+#wall div.parent:only-child  #tag-5.slick{ display: none;}
+>>>>>>> 0c587f85eb78f5bd538a92288d1bae9b3137e8a5
