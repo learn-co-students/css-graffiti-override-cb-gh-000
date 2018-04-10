@@ -15,10 +15,10 @@
   display: none;
 }
 
-div#wall div.class div#tag-5.slick {
+div#wall div.parent div#tag-5.slick {
   display: none;
 }
 
-div#wall div.class div + div div#tag-6 {
+div#wall div.parent div + div div#tag-6 {
   display: none;
 }
