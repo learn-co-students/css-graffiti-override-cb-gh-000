@@ -11,7 +11,7 @@
   display: none;
 }
 
-#wall .class #tag-4 {
+#wall .parent #tag-4 {
   display: none;
 }
 
@@ -22,4 +22,3 @@ div#wall div.class div#tag-5.slick {
 div#wall div.class div + div div#tag-6 {
   display: none;
 }
-
