@@ -10,3 +10,11 @@
 #wall #tag-3.slick.wicked {
   display: none;
 }
+
+#wall .class #tag-4 {
+  display: none;
+}
+
+div#wall div.class div#tag-5.slick {
+  display: none;
+}
