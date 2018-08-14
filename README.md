@@ -44,7 +44,7 @@ Inspect the elements of the graffiti wall in the dev tools by hovering
 over and clicking on nested elements. Take a close look at what's made available
 to you in the dev tools pane. You can see which stylesheets specific style
 declarations live in, as well as create new styles on the fly. Now, make note
-of the CSS styles used to add graffiti tags (as background images) to the wall.
+of the CSS styles used to add graffiti tags (as background images) to the wall
 
 ![Chrome Dev Tools](https://curriculum-content.s3.amazonaws.com/fewds-css/css-graffiti-override/inspect2.png "Inspect the styles on each element")
 
