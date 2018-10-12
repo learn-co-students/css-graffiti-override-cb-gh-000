@@ -1,1 +1,6 @@
-/* write your override styles here */
+* {
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
