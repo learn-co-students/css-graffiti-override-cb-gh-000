@@ -1,1 +1,19 @@
 /* write your override styles here */
+#wall .tag-1                    { display: none; }
+#wall .tag-1 ~ #tag-2           { display: none; }
+#wall .tag-1 ~ #tag-2 ~ #tag-3  { display: none; }
+#wall .parent #tag-4            { display: none; }
+#wall .tag-1 ~ #tag-2 ~ #tag-3 ~ .parent #tag-5     { display: none; }
+#wall .tag-1 ~ #tag-2 ~ #tag-3 ~ .parent div:last-child #tag-6  { display: none; }
+#wall .tag-1 ~ #tag-2 ~ #tag-3 ~ .parent div:first-child #tag-7 { display: none; }
+
+/*
+
+Resources 
+~~~~~~~~~~
+
+1. Smashing Magazine - CSS Specificity: https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/
+2. CSS Tricks - CSS Specificity: https://css-tricks.com/specifics-on-css-specificity/
+3. Code School - DiscoverDevTools: http://discover-devtools.codeschool.com/
+
+*/
